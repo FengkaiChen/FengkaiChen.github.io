@@ -167,3 +167,21 @@ name {
 span.highlight {
   background-color: #ffebd0;
 }
+
+.column {
+  float: left;
+  width: 25.00%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+hr {
+  height:5px;
+  border-width:0;
+  background-color:#000c0d;
+}
